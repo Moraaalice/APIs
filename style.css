@@ -1,0 +1,344 @@
+nav{
+    height: 80px;
+    background-color: black;padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 320px;
+    
+}
+nav > div > a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-size: large;
+}
+#icon{
+    color: white;
+    size: 30px;
+    margin-left: 190px;
+}
+#button{
+    padding: 10px;
+    background-color: yellow;
+    width: 100px;
+}
+form{
+    padding: 30px;
+    margin-left: 700px;
+}
+input{
+    padding: 15px;
+    width: 80%;
+}
+.section2{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    background: linear-gradient(to bottom,purple,pink);
+}
+#button2{
+    padding: 15px;
+    background-color: yellow;
+    width: 150px;
+}
+#button3{
+    padding: 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 150px;
+}
+#head{
+    font-size: 60px;
+}
+.images{
+    display: flex;
+    gap: 30px;
+}
+.image1 img{
+    border: solid;width: 100px;
+    margin-left: -110px;
+    margin: 40px;
+}
+.image img{
+    margin-top: 30px;
+margin-left: 100px;
+}
+.image2 img{
+    margin-left: 50px;
+}
+.gaming{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    background: linear-gradient(to bottom,purple,pink);
+}
+#heading2{
+    font-size: 60px;
+}
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.prods{
+    border: solid black;
+    margin-bottom: 4%;
+    border-radius: 15px;
+    text-align: center;
+  
+}
+.games p{
+    font-size: 20px;
+}
+.testimony h1{
+    font-size: 30px;
+}
+.testimony{
+    text-align: center;
+}
+.section3{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-left: 100px;
+    margin-top: 70px;
+}
+#pic{
+    width: 55%;
+    border: solid;
+    border-color: grey;
+    border-radius: 20px;
+    background-color: gray;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#parap{
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    list-style: none;
+    margin-top: 15%;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    text-size-adjust: 20px;
+    padding: 60px;
+}
+ul{
+    list-style: none;
+    line-height: 190%;
+}
+#gage{
+    color: yellow;
+}
+
+
+
+
+
+
+
+/* updated version */
+nav {
+    height: 80px;
+    background-color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav > div > a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: large;
+  }
+  
+  #icon {
+    color: white;
+    font-size: 30px;
+  }
+  
+  #button {
+    padding: 10px;
+    background-color: yellow;
+    width: 100px;
+  }
+  
+  form {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  input {
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .section2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(to bottom, purple, pink);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #button2 {
+    padding: 15px;
+    background-color: yellow;
+    width: 150px;
+  }
+  
+  #button3 {
+    padding: 15px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    width: 150px;
+  }
+  
+  #head {
+    font-size: 60px;
+  }
+  
+  .images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image1 img {
+    border: solid;
+    width: 100px;
+  }
+  
+  .image img {
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  
+  .image2 img {
+    margin-left: 50px;
+  }
+  
+  .gaming {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(to bottom, purple, pink);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #heading2 {
+    font-size: 60px;
+  }
+  
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .prods {
+    border: solid black
+}  
+
+
+
+
+/* Media querries */
+
+/* Small Screens */
+@media only screen and (max-width: 767px) {
+    nav {
+      padding: 0 10px;
+      height: auto;
+    }
+    
+    nav > div > a {
+      padding: 0 10px;
+      font-size: medium;
+    }
+    
+    #icon {
+      margin-left: 10px;
+    }
+    
+    form {
+      padding: 10px;
+      margin-left: 20px;
+    }
+    
+    input {
+      padding: 10px;
+      width: 100%;
+    }
+    
+    .section2, .gaming {
+      grid-template-columns: 1fr;
+    }
+    
+    .image1 img {
+      margin: 10px;
+    }
+    
+    .image img {
+      margin: 10px;
+    }
+    
+    .image2 img {
+      margin: 10px;
+    }
+    
+    .footer {
+      flex-wrap: wrap;
+      padding: 30px;
+      font-size: 16px;
+    }
+    
+    ul {
+      padding-left: 0;
+    }
+  }
+  
+  /* Big Screens */
+  @media only screen and (min-width: 768px) {
+    nav {
+      padding: 0 20px;
+    }
+    
+    #icon {
+      margin-left: 190px;
+    }
+    
+    form {
+      padding: 30px;
+      margin-left: 700px;
+    }
+    
+    .section2, .gaming {
+      grid-template-columns: repeat(2, 2fr);
+    }
+    
+    .image1 img {
+      margin: 40px;
+    }
+    
+    .image img {
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+    
+    .image2 img {
+      margin-left: 50px;
+    }
+    
+    .footer {
+      padding: 60px;
+    }
+  }
+  
